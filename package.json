@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-eslint-sort-type-only-imports",
   "version": "0.0.0",
-  "description": "Sorts TypeScript type only imports",
+  "description": "Sorts TypeScript type-only imports",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -17,10 +17,13 @@
     "requireindex": "^1.1.0"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^4.31.2",
     "eslint": "^7.1.0",
     "eslint-plugin-eslint-plugin": "^3.2.0",
     "eslint-plugin-node": "^11.0.0",
-    "mocha": "^9.0.0"
+    "mocha": "^9.0.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
   },
   "engines": {
     "node": "12.x || 14.x || >= 16"
